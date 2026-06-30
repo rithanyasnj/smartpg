@@ -12,7 +12,7 @@ font-family:'Poppins',sans-serif;
 
 body{
 
-background:#9f64d0;
+background:#13f2e3cc;
 
 }
 
@@ -26,7 +26,7 @@ align-items:center;
 
 padding:20px 80px;
 
-background:rgb(189, 130, 233);
+background:#021514;
 
 box-shadow:0 5px 20px rgba(0,0,0,.1);
 
@@ -50,13 +50,13 @@ gap:10px;
 
 font-size:28px;
 
-color:#050107;
+color:white;
 
 }
 
 .logo h2{
 
-color:#030104;
+color:white;
 
 }
 
@@ -74,7 +74,7 @@ nav ul li a{
 
 text-decoration:none;
 
-color:#333;
+color:white;
 
 font-weight:500;
 
@@ -124,7 +124,7 @@ width:50%;
 
 font-size:55px;
 
-color:#222;
+color:#1c696b;;
 
 margin-bottom:20px;
 
@@ -138,13 +138,13 @@ line-height:32px;
 
 margin-bottom:30px;
 
-color:#666;
+color:#030303;
 
 }
 
 .hero-btn{
 
-background:#010103;
+background:#1c696b;;
 
 padding:15px 35px;
 
@@ -176,7 +176,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 .search-section{
     width:85%;
     margin:50px auto;
-    background:white;
+    background:#1c696b;
     padding:40px;
     border-radius:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.1);
@@ -197,17 +197,19 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 .search-box input,
 .search-box select{
-    padding:18px;
-    width:250px;
+    width:220px;
+    padding:15px;
     border:1px solid #ddd;
     border-radius:10px;
     font-size:16px;
 }
 
+
+
 .search-box button{
     padding:18px 40px;
     border:none;
-    background:#000000;
+    background:#1c696b;
     color:white;
     border-radius:10px;
     font-size:16px;
@@ -235,7 +237,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 .city-card{
     width:250px;
-    background:rgb(208, 200, 200);
+    background: white;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 10px 20px rgba(0,0,0,.1);
@@ -282,7 +284,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 .pg-card{
     width:320px;
-    background:#fff;
+    background:#1c696b;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,0.1);
@@ -316,8 +318,8 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
     margin-top:15px;
     width:100%;
     padding:12px;
-    background:#4f46e5;
-    color:white;
+    background:#F59E0B;
+    color:#1c696b;;
     border:none;
     border-radius:10px;
     cursor:pointer;
@@ -358,11 +360,11 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 .why-card h3{
     margin-bottom:15px;
-    color:#4f46e5;
+    color:#1c696b;
 }
 
 .why-card p{
-    color:#666;
+    color:white;
     line-height:25px;
 }
 /* CITIES PAGE */
@@ -410,7 +412,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 
 .city-box p{
     padding:0 15px 20px;
-    color:gray;
+    color:#1c696b;
 }
 /* PREMIUM PG LISTINGS */
 
@@ -424,7 +426,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
 .listing-header p{
-    color:gray;
+    color:rgb(237, 255, 242);
     margin-top:10px;
 }
 
@@ -513,7 +515,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
 .premium-content h2{
-    color:#4f46e5;
+    color:#1c696b;
     margin:15px 0;
 }
 
@@ -521,7 +523,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
     width:100%;
     padding:15px;
     border:none;
-    background:#4f46e5;
+    background:#1c696b;
     color:white;
     border-radius:10px;
     cursor:pointer;
@@ -571,7 +573,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 .contact-form button{
     padding:15px;
     border:none;
-    background:#4f46e5;
+    background:#1c696b;
     color:white;
     border-radius:10px;
     cursor:pointer;
@@ -589,4 +591,100 @@ footer{
     font-size:22px;
     margin:15px;
     cursor:pointer;
+}
+@media (max-width:768px){
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    .hero,
+    .city-grid,
+    .listing-container,
+    .details-container,
+    .contact-section{
+        flex-direction: column;
+    }
+
+    img{
+        width:100%;
+    }
+}
+/* PG DETAILS PAGE */
+
+.details-container{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+}
+/* PG DETAILS PAGE */
+
+.details-container{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    gap:50px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    flex-wrap:wrap;
+}
+
+.details-image{
+    flex:1;
+}
+
+.details-image img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+.details-content{
+    flex:1;
+    position:relative;
+}
+
+.details-content h1{
+    font-size:40px;
+    margin:20px 0;
+}
+
+.details-content p{
+    font-size:18px;
+    color:#666;
+    margin:15px 0;
+}
+
+.details-content h2{
+    color:#1c696b;
+    margin:20px 0;
+    font-size:30px;
+}
+
+.facility-list{
+    list-style:none;
+    margin:20px 0;
+}
+
+.facility-list li{
+    padding:10px 0;
+    font-size:18px;
+}
+
+.contact-btn{
+    padding:15px 35px;
+    background:#1c696b;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.contact-btn:hover{
+    background:#1c696b;
 }
